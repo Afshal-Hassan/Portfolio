@@ -1,0 +1,8 @@
+.background{
+    display: flex;
+    flex-direction: row;
+    width: 99.5%;
+    border: 2px solid black;
+    height: 650px;
+
+}

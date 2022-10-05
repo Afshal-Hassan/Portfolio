@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fira+Sans:wght@500&display=swap');
+
+.Banner{
+    /* height: 580px; height:550px */
+    height: 600px;
+    width: 99.5%;
+    display: flex;
+    flex-direction: row;
+}
+.tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 50px;
+    width: 99%;
+}
+.tagline-title{
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color:#1484CD;
+
+
+
+}
+.tagline-tile2{
+    font-family: 'Fira Sans', sans-serif;
+    
+    font-weight: 500;
+    margin-left: 15px;
+    color:#1484CD;
+
+}
+.subtitle{
+    color: #009AEE;
+    font-weight: 550;
+    margin-left: 4px;
+    margin-top: 9px !important;
+}
+.divider{
+    border: 1px solid lightgray;
+    width: 79%;
+
+}
+.banner-wavy{
+    border: none !important;
+    outline: none !important;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transform: translateX(0px);
+
+}
+.picture{
+    background: transparent !important;
+}
+.Card{
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    background: rgba(255, 255, 255, 0.2) !important; 
+    color: white !important;
+    margin-left: 150px !important;
+    transition: 0.5s !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.Card:hover{
+    transform: rotateY(180deg) !important;
+}
+.About-Me{
+    font-family: 'Fira Sans', sans-serif !important;
+    font-weight: 600 !important;
+    margin-top:18px !important;
+
+
+}
+.AboutMe-Desc{
+    margin-top:22px !important;
+    margin-left: 10px !important;
+    word-spacing: 2.35px !important;
+    padding: 10px !important;
+}
+
+/* border-radius: 0 0 50% 50%/0 0 50% 50%; */

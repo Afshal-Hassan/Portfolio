@@ -1,0 +1,48 @@
+@import url('//db.onlinewebfonts.com/c/f1fcc5aed1e20fc0cdb9f8a7573625bd?family=Integral+CF');
+@import url('http://fonts.cdnfonts.com/css/nexa');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+@import url('http://fonts.cdnfonts.com/css/aquire');
+@import url("//db.onlinewebfonts.com/c/ee178210386f1f16c27f957320a62c53?family=second+breakfast");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fira+Sans:wght@500&display=swap');
+
+
+
+
+
+.Link-Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+    margin-left: 15px;
+
+}
+.Link1{
+    margin-left:20px !important;
+    margin-right:18px !important;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500 !important;
+
+
+}
+.title{
+    flex: 1;
+    color: #009AEE;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+}
+
+@media (max-width:500px) {
+    .Link-Container{
+        display:none
+    }
+    .title{
+        text-align: center;
+    }
+}
