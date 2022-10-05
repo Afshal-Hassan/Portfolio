@@ -2,7 +2,6 @@
 
 .Skills{
     height: 400px;
-    border: 1px solid black;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
