@@ -17,7 +17,7 @@ function SkillLoader(props) {
                 
             }
             
-        },38)
+        },48)
         setInterval(()=>{
             if(counter1===props.offset){
                 clearInterval();
@@ -26,7 +26,7 @@ function SkillLoader(props) {
                 counter1=counter1+1;
                 setOffSet(counter1);
             }
-        },20)
+        },25)
     },[])
 
   return (
