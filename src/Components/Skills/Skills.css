@@ -11,3 +11,25 @@
     font-family: 'Fira Sans', sans-serif !important;
     margin-top: 50px !important;
 }
+@media (max-width:500px) {
+    .SkillLoader-spinner{
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-top: 62.5px !important;
+    }
+    .Comm-Skill{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 30px !important;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        margin-top: 22px !important;
+    }
+    
+    
+}

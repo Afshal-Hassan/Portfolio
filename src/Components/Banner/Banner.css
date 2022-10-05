@@ -49,6 +49,7 @@
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     transform: translateX(0px);
+    width: 62% !important;
 
 }
 .picture{
@@ -66,7 +67,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    height:340px !important;
+    overflow: hidden !important;
+    width: 380px !important;
 
 }
 .Card:hover{
@@ -87,3 +90,72 @@
 }
 
 /* border-radius: 0 0 50% 50%/0 0 50% 50%; */
+.divider1{
+    margin-top: 40px!important;
+    border: 1px solid lightgray;
+    width: 99.5%;
+
+}
+
+@media (max-width:500px) {
+    .Banner{
+        flex-direction: column;
+        border: 2px solid black !important;
+        height: 850px;
+    }
+    .banner-intro{
+        text-align: center !important;
+        width: 90.5% !important;
+        margin-top: 145px !important;
+    }
+    .banner-wavy{
+        flex-direction: column !important;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+        height: 70% !important;
+        width: 410px!important;
+        margin-top: 50px !important;
+    }
+    .Card{
+        width: 330px !important;
+        margin-right: 145px !important;
+
+    }
+    .tagline{
+        width: 400px;
+        text-align: center !important;
+        font-family: 'Fira Sans', sans-serif;
+
+    }
+    .tagline-title{
+        font-family: 'Fira Sans', sans-serif;
+
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center !important;
+       margin-bottom: 18px !important;
+       margin-left:10px !important;
+
+       
+    }
+    .tagline-tile2{
+        text-align: center !important;
+        font-family: 'Fira Sans', sans-serif;
+
+
+    }
+    .subtitle{
+        text-align: center !important;
+        font-family: 'Fira Sans', sans-serif;
+
+        margin-left: 0px;
+        margin-top: 17px !important;
+        margin-right: 45px !important;
+
+
+    }
+
+    
+}
