@@ -1,0 +1,55 @@
+.skills-loader{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.Outer-Circle{
+    width: 160px !important;
+    height: 160px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border: 1px solid lightgray;
+    /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0,0.2),
+                -6px -6px -10px -1px rgba(0, 0, 0,0.2)                
+    !important; */
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,.2) ,
+    -3px -3px 5px 3px rgba(0,0,0,0.2)
+
+}
+.Inner-Circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    4px 4px 6px -1px rgba(0, 0, 0, 0.2)
+}
+.loader-percentage{
+    color: #555;
+    font-family: 'Fira Sans', sans-serif !important;
+font-weight: 500;
+}
+circle{
+    fill: none;
+    stroke: #009AEE;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    /* stroke-dashoffset: 472; */
+    /* animation: loader 3s linear forwards; */
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes loader {
+    100%{
+        stroke-dashoffset: 162;
+    }
+    
+}
